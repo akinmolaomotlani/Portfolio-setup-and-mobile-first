@@ -32,8 +32,6 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-> Describe your project in 1 or 2 sentences.
-
 **[Portfolio-setup-and-mobile-first]** is a project to build up a portifolio, mobile view
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -95,8 +93,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/akinmolaomotlani/Hello-project.git
-```
+  git clone https://github.com/akinmolaomotlani/Portfolio-setup-and-mobile-first/pull/1
 
 run this command  :
 
@@ -114,10 +111,23 @@ open index.html using server extension
 
 <!--
 Example command:
+### Install
+
+Install this project with:
+
+<!--
+run this command  :
+
+```sh
+  cd my-project
+  npm install
+```
+--->
 
 ```sh
   rails server
 ```
+
 --->
 
 <!--
