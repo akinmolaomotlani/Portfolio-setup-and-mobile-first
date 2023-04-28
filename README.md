@@ -70,6 +70,10 @@ added linters.yml
 
 To get a local copy up and running, follow these steps.
 
+1. cloning the repo
+2. Install (Install project dependencies)
+3. and Usage (Open with live server).
+
 ### Prerequisites
 
 In order to run this project you need:
@@ -78,29 +82,11 @@ In order to run this project you need:
 - code editor
 - git
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 <!--
-Example commands:
-
-```sh
   cd my-folder
   git clone https://github.com/akinmolaomotlani/Portfolio-setup-and-mobile-first/pull/1
-
-run this command  :
-
-```sh
-  cd my-project
-  npm install
-```
 --->
 
 ### Usage
@@ -113,30 +99,7 @@ open index.html using server extension
 Example command:
 ### Install
 
-Install this project with:
-
-<!--
-run this command  :
-
-```sh
-  cd my-project
-  npm install
-```
---->
-
-```sh
-  rails server
-```
-
---->
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+Install this project with the github link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
