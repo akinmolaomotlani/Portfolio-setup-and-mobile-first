@@ -32,8 +32,6 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-setup and mobile first] <a name="setting Up a linters"></a>
-
 > Describe your project in 1 or 2 sentences.
 
 **[Portfolio-setup-and-mobile-first]** is a project to build up a portifolio, mobile view
@@ -43,10 +41,6 @@
 1. HTML
 2. CSS
 3. LINTERS
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -76,10 +70,6 @@ added linters.yml
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-> This project will help a new developer to indentifer bugs in the early days of his coding
-> and also keeps the working pace clean
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -100,8 +90,6 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
-
 <!--
 Example commands:
 
@@ -109,13 +97,7 @@ Example commands:
   cd my-folder
   git clone https://github.com/akinmolaomotlani/Hello-project.git
 ```
---->
 
-### Install
-
-Install this project with:
-
-<!--
 run this command  :
 
 ```sh
@@ -138,19 +120,6 @@ Example command:
 ```
 --->
 
-### Run tests
-
-To run tests, run the following command:
-
-t> comming soon
-
-<!--
-
-
-### Deployment
-
-t> comming soon   :
-
 <!--
 Example:
 
@@ -163,10 +132,6 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
 👤 ** Omotolani Akinmola **
 
 - GitHub: [@githubhandle](https://github.com/akinmolaomotlani)
@@ -176,10 +141,6 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] Add header
 - [ ] Add footer
@@ -218,10 +179,6 @@ I would like to thank Microverse for the opportunity and my code partner, Jalloh
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
