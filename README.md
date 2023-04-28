@@ -70,9 +70,9 @@ added linters.yml
 
 To get a local copy up and running, follow these steps.
 
-1. cloning the repo
-2. Install (Install project dependencies)
-3. and Usage (Open with live server).
+1. cloning the repo (https://github.com/akinmolaomotlani/ Portfolio-setup-and-mobile-first)
+2. Install (Install project dependencies on a created folder to access the mobile-setup file on the repo)
+3. and Usage (Open with live server on the vs-code).
 
 ### Prerequisites
 

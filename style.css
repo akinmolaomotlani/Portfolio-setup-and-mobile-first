@@ -23,8 +23,10 @@ li {
 /*     HEADER   */
 
 /* ********************* */
+
 .header-section {
-  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .header {
@@ -36,11 +38,6 @@ li {
 
 .img-logo {
   width: 10%;
-  border-radius: 50%;
-}
-
-.main-nav {
-  margin-bottom: 20px;
 }
 
 .main-nav-list {
@@ -75,12 +72,13 @@ li {
 /*      SECTION HERO    */
 
 /* ********************* */
+
 .section-hero {
+  padding-bottom: 20px;
   background-image: url(img/header-shapes\ mobile.png);
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
-  margin-bottom: 134px;
 }
 
 .text-container {
@@ -102,16 +100,19 @@ li {
   letter-spacing: 0.37px;
   color: #172b4d;
   margin-bottom: 12px;
+  padding-top: 110px;
 }
 
 .hero-discription {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
   color: #344563;
-  margin-bottom: 32px;
+  padding-bottom: 80px;
+  /* padding-top: -60px; */
+  margin-bottom: 12px;
 }
 
 .connect-link {
@@ -123,6 +124,8 @@ li {
   font-size: 16px;
   font-family: "poppins", sans-serif;
   margin-bottom: 12px;
+  margin-top: -90px;
+  padding-bottom: 80px;
 }
 
 .icon-nav-list {
@@ -130,6 +133,7 @@ li {
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  margin-top: -82px;
 }
 
 .icon-link,
@@ -143,10 +147,29 @@ li {
 /*      SECTION HERO    */
 
 /* ********************* */
-.section-image-container {
+/* .section-image-container {
   padding: 24px;
 }
 
 .img-section {
   width: 100%;
 }
+
+.subheading {
+  width: 55px;
+  height: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+
+  display: inline-block;
+}
+.dot {
+  display: block;
+  align-self: center;
+  width: 8px;
+  height: 8px;
+} */
