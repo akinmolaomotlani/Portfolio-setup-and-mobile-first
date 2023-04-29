@@ -18,6 +18,29 @@ li {
   list-style: none;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 14px 32px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  color: #396df2;
+  border: 1px solid #396df2;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
 /* ******************** */
 
 /*     HEADER   */
@@ -27,6 +50,7 @@ li {
 .header-section {
   padding-left: 24px;
   padding-right: 24px;
+  width: 327px;
 }
 
 .header {
@@ -67,6 +91,15 @@ li {
   list-style: none;
 }
 
+.icon-nav-list {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-top: -82px;
+}
+
 /* ******************** */
 
 /*      SECTION HERO    */
@@ -79,6 +112,7 @@ li {
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
+  margin-bottom: 114px;
 }
 
 .text-container {
@@ -89,6 +123,7 @@ li {
 .nav-box {
   display: block;
   padding-left: 24px;
+  margin-bottom: 20px;
 }
 
 .heading-primary {
@@ -127,14 +162,6 @@ li {
   padding-bottom: 80px;
 }
 
-.icon-nav-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
-  margin-top: -82px;
-}
-
 .icon-link,
 .fa-brands {
   font-size: 32px;
@@ -143,33 +170,269 @@ li {
 
 /* ******************** */
 
-/*      SECTION HERO    */
+/*      SECTION  WORK    */
 
 /* ********************* */
 
-/* .section-image-container {
-  padding: 24px;
+.work-section {
+  margin-bottom: 144px;
 }
 
-.img-section {
-  width: 100%;
+.work-container {
+  width: 327px;
+  height: 552px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 88px;
+}
+
+.heading-secondary {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  color: #172b4d;
 }
 
 .subheading {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 16px;
-  color: #344563;
-
   display: inline-block;
 }
+
+.text-container-work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.developer,
+.year {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
 .dot {
+  font-size: 34px;
+  color: #c1c7d0;
+}
+
+.work-description {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 14px;
+}
+
+.languages-apps-box {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.apps {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #7f8cff;
+  background-color: #eceef1;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+/* ******************** */
+
+/*      SECTION  WORK    */
+
+/* ********************* */
+
+.about {
+  width: 327px;
+  margin-top: -50px;
+  margin-bottom: 114px;
+}
+
+.about-heading-primary {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 58px;
+  letter-spacing: 0.37px;
+  color: #172b4d;
+  margin-bottom: 12px;
+}
+
+.about-connect-link {
   display: block;
-  align-self: center;
-  width: 8px;
-  height: 8px;
-} */
+  color: #7f8cff;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 26px;
+  margin-top: -90px;
+  padding-bottom: 80px;
+}
+
+.about-langs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.language {
+  height: 24px;
+  right: 78px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000;
+}
+
+.icon {
+  font-size: 28px;
+  color: #acb7c3;
+  border: 2px;
+}
+
+.about-langs-list {
+  padding: 24px;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  padding: 12px;
+  background: #f7f7f9;
+  margin-bottom: 10px;
+}
+
+.about-langs-link {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #253858;
+}
+
+.about-skils-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border-bottom: 2px #acb7c3 solid;
+}
+
+.about-skills-box {
+  padding: 24px;
+}
+
+/* ******************** */
+
+/*      SECTION  CTA    */
+
+/* ********************* */
+
+.section-cta {
+  padding: 24px;
+  background-color: #396df2;
+  background-image: url(img/contact\ form\ shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 50px;
+}
+
+.cta {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 12px;
+}
+
+.cta-heading-primary {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.37px;
+  color: #fff;
+  margin-bottom: 12px;
+  text-align: center;
+  padding-top: 160px;
+}
+
+.cta-description {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 52px;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: "poppins", sans-serif;
+  border: none;
+  color: #172b4d;
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form textarea {
+  width: 100%;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
