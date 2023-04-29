@@ -93,6 +93,11 @@ li {
 
 .icon-nav-list {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-top: -82px;
 }
 
 /* ******************** */
@@ -191,7 +196,7 @@ li {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 46px;
   color: #172b4d;
 }
 
@@ -274,7 +279,7 @@ li {
   font-style: normal;
   font-weight: 700;
   font-size: 43px;
-  line-height: 56px;
+  line-height: 58px;
   letter-spacing: 0.37px;
   color: #172b4d;
   margin-bottom: 12px;
@@ -302,13 +307,12 @@ li {
 
 .language {
   height: 24px;
-  left: 12px;
   right: 78px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 26px;
   color: #000;
 }
 
@@ -337,9 +341,9 @@ li {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
   color: #253858;
 }
 
@@ -357,7 +361,7 @@ li {
 
 /* ******************** */
 
-/*      SECTION  WORK    */
+/*      SECTION  CTA    */
 
 /* ********************* */
 
