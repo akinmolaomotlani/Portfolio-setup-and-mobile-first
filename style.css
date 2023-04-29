@@ -27,7 +27,7 @@ li {
 .btn:visited {
   text-decoration: none;
   padding: 14px 32px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -157,14 +157,6 @@ li {
   padding-bottom: 80px;
 }
 
-.icon-nav-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
-  margin-top: -82px;
-}
-
 .icon-link,
 .fa-brands {
   font-size: 32px;
@@ -185,10 +177,9 @@ li {
   width: 327px;
   height: 552px;
   padding: 16px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-
   display: grid;
   grid-template-rows: 1fr 1fr;
   gap: 12px;
@@ -207,7 +198,7 @@ li {
 .subheading {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -238,7 +229,7 @@ li {
 }
 
 .work-description {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -255,7 +246,7 @@ li {
 }
 
 .apps {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -378,6 +369,7 @@ li {
   background-size: cover;
   border-top-left-radius: 50px;
 }
+
 .cta {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -425,7 +417,7 @@ li {
   color: inherit;
   border: none;
   color: #172b4d;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -433,7 +425,7 @@ li {
 .cta-form textarea {
   width: 100%;
   outline: none;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #000;
