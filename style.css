@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+/* ******************** */
+
+/*     HEADER   */
+
+/* ********************* */
+
+.header-section {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo {
+  width: 10%;
+}
+
+.main-nav-list {
+  list-style: none;
+}
+
+.menu-icon {
+  font-size: 32px;
+}
+
+.time {
+  font-size: 18px;
+  color: #000;
+}
+
+.display-nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.display-icon {
+  font-size: 18px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+/* ******************** */
+
+/*      SECTION HERO    */
+
+/* ********************* */
+
+.section-hero {
+  padding-bottom: 20px;
+  background-image: url(img/header-shapes\ mobile.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.text-container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.nav-box {
+  display: block;
+  padding-left: 24px;
+}
+
+.heading-primary {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.37px;
+  color: #172b4d;
+  margin-bottom: 12px;
+  padding-top: 110px;
+}
+
+.hero-discription {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #344563;
+  padding-bottom: 80px;
+  margin-bottom: 12px;
+}
+
+.connect-link {
+  display: block;
+  color: #7f8cff;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 12px;
+  margin-top: -90px;
+  padding-bottom: 80px;
+}
+
+.icon-nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-top: -82px;
+}
+
+.icon-link,
+.fa-brands {
+  font-size: 32px;
+  color: #555;
+}
+
+/* ******************** */
+
+/*      SECTION HERO    */
+
+/* ********************* */
+
+/* .section-image-container {
+  padding: 24px;
+}
+
+.img-section {
+  width: 100%;
+}
+
+.subheading {
+  width: 55px;
+  height: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+
+  display: inline-block;
+}
+.dot {
+  display: block;
+  align-self: center;
+  width: 8px;
+  height: 8px;
+} */
