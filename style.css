@@ -244,8 +244,9 @@ li {
 }
 
 .languages-apps-box {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: centers;
   gap: 8px;
   margin-bottom: 32px;
 }
