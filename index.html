@@ -332,7 +332,7 @@
 
         <div class="cta-form-box">
           <form
-            action="https://formspree.io/f/{form_id}"
+            action="https://formspree.io/f/xeqwdjzz"
             method="post"
             class="cta-form"
           >
@@ -341,6 +341,7 @@
               <input
                 id="full-name"
                 type="text"
+                maxlength="30"
                 placeholder="full name"
                 name="name"
                 required
@@ -352,7 +353,7 @@
                 id="email"
                 type="email"
                 placeholder="Email"
-                name="full-name"
+                name="email"
                 required
               />
             </div>
@@ -360,15 +361,13 @@
             <div>
               <label for="message"></label>
               <textarea
-                placeholder="Message"
-                name=""
+                name="textarea"
                 id=""
-                cols="30"
+                cols="50"
                 rows="10"
                 maxlength="500"
-                required
-              >
-              </textarea>
+                placeholder="write a message"
+              ></textarea>
             </div>
 
             <button class="form-btn" type="submit">Get in tourch</button>
