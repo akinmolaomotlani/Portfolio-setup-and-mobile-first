@@ -319,66 +319,62 @@
         </div>
       </div>
     </section>
-    <section class="section-cta"><div class="cta">
-      <div class="cta-text-box">
-        <p class="cta-heading-primary">Contact me</p>
-        <p class="cta-description">
-          If you have an application you are interested in developing, a
-          feature that you need built or a project that needs coding. I’d love
-          to help with it!
-        </p>
+    <section class="section-cta">
+      <div class="cta container">
+        <div class="cta-text-box">
+          <h3 class="cta-heading-primary">Contact me</h3>
+          <p class="cta-description">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it!
+          </p>
+        </div>
+
+        <div class="cta-form-box">
+          <form
+            action="https://formspree.io/f/{form_id}"
+            method="post"
+            class="cta-form"
+          >
+            <div>
+              <label for="name"></label>
+              <input
+                id="full-name"
+                type="text"
+                placeholder="full name"
+                name="name"
+                required
+              />
+            </div>
+            <div>
+              <label for="Email"></label>
+              <input
+                id="email"
+                type="email"
+                placeholder="Email"
+                name="full-name"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="message"></label>
+              <textarea
+                placeholder="Message"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                maxlength="500"
+                required
+              >
+              </textarea>
+            </div>
+
+            <button class="form-btn" type="submit">Get in tourch</button>
+          </form>
+        </div>
       </div>
-
-      <div class="cta-form-box">
-        <form class="cta-form">
-          <div>
-            <label for="full-name"> </label>
-            <input
-              id="full-name"
-              type="text"
-              placeholder="full name"
-              name="email"
-              required
-            />
-          </div>
-          <div>
-
-            <label for="full-name"> </label>
-
-            <input
-
-              id="full-name"
-
-              type="text"
-
-              placeholder="full name "
-
-              name="full-name"
-
-              required
-
-            />
-
-          </div>
-
-          <div>
-
-            <label for="message"></label>
-
-            <textarea placeholder="Message" name="" id="" cols="30" rows="10">
-
-            </textarea>
-
-          </div>
-
-        </form>
-
-      </div>
-
-    </div>
-
-    <button class="btn send" type="button">Send</button>
-
-</section>
+    </section>
   </body>
 </html>
