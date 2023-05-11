@@ -1,0 +1,312 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (min-width: 23.4rem) {
+  .heading-primary {
+    font-size: 4.3rem;
+    padding-top: 11.5rem;
+  }
+
+  .section-cta {
+    background-position: 10.8rem 5rem;
+  }
+
+  .cta-description {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 25em) {
+  .img-section {
+    width: 100%;
+  }
+
+  .text-container-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .section-cta {
+    background-position: 12.8rem 5rem;
+  }
+
+  .abtself-discription,
+  .hero-discription {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+}
+
+@media (min-width: 26em) {
+  .img-section {
+    width: 100%;
+  }
+
+  .text-container-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .abtself-discription,
+  .hero-discription {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: left;
+  }
+
+  .work-description {
+    font-size: 2rem;
+  }
+
+  .developer {
+    font-size: 1.8rem;
+  }
+
+  .section-cta {
+    background-position: 15.2rem 5rem;
+  }
+
+  .text-container-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+@media (min-width: 28em) {
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .abtself-discription,
+  .hero-discription {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+
+  .about-langs-link {
+    font-size: 2rem;
+  }
+
+  .cta-description {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .cta-heading-primary {
+    font-size: 5.2rem;
+    line-height: 5.6rem;
+  }
+
+  .cta-descri .section-cta {
+    background-position: 17.8rem 5rem;
+  }
+}
+@media (min-width: 29.5em) {
+  .section-hero {
+    background-position: 5.6rem 5rem;
+  }
+
+  .section-cta {
+    background-position: 19rem 5rem;
+  }
+
+  .heading-primary {
+    font-size: 6rem;
+    padding-top: 16rem;
+  }
+}
+@media (min-width: 31em) {
+  .section-cta {
+    background-position: 23.8rem 5rem;
+  }
+}
+@media (min-width: 32em) {
+  .section-hero {
+    background-position: 6rem 5rem;
+  }
+
+  .section-cta {
+    background-position: 26.6rem 5rem;
+  }
+}
+
+@media (min-width: 33.5em) {
+  .section-hero {
+    background-position: 6rem 5rem;
+  }
+
+  .heading-primary {
+    font-size: 6.7rem;
+    line-height: 6rem;
+  }
+
+  .abtself-discription,
+  .hero-discription {
+    font-size: 2.7rem;
+    line-height: 3.4rem;
+  }
+
+  .section-cta {
+    background-position: 27.6rem 5rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .section-desktop-header {
+    padding: 2.4rem;
+  }
+
+  html {
+    font-size: 56.25%;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .desk-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desktop-header-text {
+    display: block;
+  }
+
+  .main-desk-list {
+    width: 22rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .desk-main-nav-list {
+    margin-left: 10rem;
+  }
+
+  .link {
+    text-decoration: none;
+    width: 62px;
+    height: 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .header-section {
+    background-color: #fff;
+  }
+
+  .section-hero {
+    padding-bottom: 2rem;
+    background-image: url(img/Header\ bg.svg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 16rem;
+    background-position: 0 5rem;
+    background-color: #fff;
+    border-bottom-left-radius: 5rem;
+  }
+
+  .section-cta {
+    background-position: 25.6rem 5rem;
+  }
+
+  .heading-primary {
+    width: 38rem;
+    font-size: 4.8rem;
+    line-height: 6.2rem;
+    padding-right: 2.2rem;
+  }
+
+  .desk-img-box {
+    display: block;
+    width: 100%;
+  }
+
+  .section-image-container {
+    display: none;
+  }
+
+  .div {
+    width: 100%;
+    padding: 1.6rem;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 1.6rem;
+  }
+
+  .work-container {
+    height: auto;
+    width: 100%;
+    padding: 1.6rem;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-bottom: 8.8rem;
+    align-items: center;
+  }
+
+  .desk-img {
+    width: 90%;
+  }
+
+  .about-section {
+    margin-right: 2.4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: #fff;
+    border-top-right-radius: 5rem;
+  }
+
+  .about-langs-container {
+    width: 40rem;
+  }
+
+  .abtself-discription {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .cta {
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+  }
+
+  .cta-description {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+  }
+}
