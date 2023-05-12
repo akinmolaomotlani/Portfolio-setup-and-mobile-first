@@ -403,18 +403,14 @@ li {
 /* ********************* */
 
 .section-cta {
-  background-color: #6070ff;
-  padding: 24px;
-  border-top-left-radius: 50px;
-}
-
-.section-cta {
   background-image: url(img/contact\ form\ background\ shapes.svg\ real.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  left: 0px;
-  top: 5125px;
+  padding: 24px;
+  background-color: #6070ff;
+  padding: 24px;
+  border-top-left-radius: 50px;
 }
 
 .cta {
