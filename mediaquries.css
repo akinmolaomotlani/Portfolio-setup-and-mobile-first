@@ -9,10 +9,6 @@
     background-position: 25px 50px;
   }
 
-  .section-cta {
-    background-position: 145px 50px;
-  }
-
   .cta-description {
     font-size: 18px;
     line-height: 24px;
@@ -46,10 +42,6 @@
   .hero-discription {
     font-size: 16px;
     line-height: 24px;
-  }
-
-  .section-cta {
-    background-position: 296px 50px;
   }
 }
 
