@@ -133,6 +133,7 @@ li {
   margin-bottom: 12px;
   padding-top: 300px;
 }
+
 .icon-nav-list {
   display: flex;
   flex-direction: row;
@@ -402,7 +403,6 @@ li {
 /* ********************* */
 
 .section-cta {
-  width: 1440px;
   background-color: #6070ff;
   width: 100%;
   background-repeat: no-repeat;
