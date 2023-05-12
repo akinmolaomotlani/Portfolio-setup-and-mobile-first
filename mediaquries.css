@@ -1,174 +1,64 @@
-@media (min-width: 23.4rem) {
+@media (min-width: 375px) {
   .heading-primary {
-    font-size: 4.3rem;
-    padding-top: 11.5rem;
+    font-size: 40px;
+    line-height: 52px;
+    padding-top: 100px;
+  }
+
+  .hero {
+    background-position: 25px 50px;
   }
 
   .section-cta {
-    background-position: 10.8rem 5rem;
+    background-position: 145px 50px;
   }
 
   .cta-description {
-    font-size: 2.4rem;
-    line-height: 3rem;
+    font-size: 18px;
+    line-height: 24px;
     text-align: center;
   }
-}
 
-@media (min-width: 25em) {
+  .hero-discription {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   .img-section {
     width: 100%;
   }
 
-  .text-container-work {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1rem;
-  }
-
-  .heading-primary {
-    font-size: 5rem;
-  }
-
-  .section-cta {
-    background-position: 12.8rem 5rem;
-  }
-
-  .abtself-discription,
-  .hero-discription {
-    font-size: 2rem;
-    line-height: 2.8rem;
-  }
-}
-
-@media (min-width: 26em) {
-  .img-section {
-    width: 100%;
-  }
-
-  .heading-primary {
-    font-size: 5rem;
-  }
-
-  .abtself-discription,
-  .hero-discription {
-    font-size: 2rem;
-    line-height: 2.8rem;
-    text-align: left;
-  }
-
-  .work-description {
-    font-size: 2rem;
-  }
-
-  .developer {
-    font-size: 1.8rem;
-  }
-
-  .section-cta {
-    background-position: 15.2rem 5rem;
-  }
-
-  .text-container-work {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1rem;
-    margin-bottom: 0.6rem;
-  }
-}
-
-@media (min-width: 28em) {
-  .heading-primary {
-    font-size: 5rem;
-  }
-
-  .abtself-discription,
-  .hero-discription {
-    font-size: 2.3rem;
-    line-height: 2.8rem;
-  }
-
-  .about-langs-link {
-    font-size: 2rem;
-  }
-
   .cta-description {
-    font-size: 2.4rem;
-    line-height: 3rem;
-    text-align: center;
-  }
-
-  .cta-heading-primary {
-    font-size: 5.2rem;
-    line-height: 5.6rem;
-  }
-
-  .cta-descri .section-cta {
-    background-position: 17.8rem 5rem;
+    padding-left: 24px;
+    padding-right: 0;
   }
 }
 
-@media (min-width: 29.5em) {
+@media (min-width: 536px) {
   .section-hero {
-    background-position: 5.6rem 5rem;
-  }
-
-  .section-cta {
-    background-position: 19rem 5rem;
+    background-position: 60px 50px;
   }
 
   .heading-primary {
-    font-size: 6rem;
-    padding-top: 16rem;
-  }
-}
-
-@media (min-width: 31em) {
-  .section-cta {
-    background-position: 23.8rem 5rem;
-  }
-}
-
-@media (min-width: 32em) {
-  .section-hero {
-    background-position: 6rem 5rem;
-  }
-
-  .section-cta {
-    background-position: 26.6rem 5rem;
-  }
-}
-
-@media (min-width: 33.5em) {
-  .section-hero {
-    background-position: 6rem 5rem;
-  }
-
-  .heading-primary {
-    font-size: 6.7rem;
-    line-height: 6rem;
+    padding-top: 150px;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   .abtself-discription,
   .hero-discription {
-    font-size: 2.7rem;
-    line-height: 3.4rem;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .section-cta {
-    background-position: 27.6rem 5rem;
+    background-position: 296px 50px;
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 767px) {
   .section-desktop-header {
-    padding: 2.4rem;
-  }
-
-  html {
-    font-size: 56.25%;
+    padding: 24px;
   }
 
   .header {
@@ -187,16 +77,12 @@
   }
 
   .main-desk-list {
-    width: 22rem;
-    margin-right: 10rem;
+    width: 220px;
+    margin-right: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .desk-main-nav-list {
-    margin-left: 10rem;
   }
 
   .link {
@@ -205,9 +91,9 @@
     height: 20px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
     color: #344563;
   }
 
@@ -216,56 +102,60 @@
   }
 
   .section-hero {
-    padding-bottom: 2rem;
+    background-color: #efefef;
+  }
+
+  .hero {
+    padding-bottom: 20px;
     background-image: url(img/Header\ bg.svg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 16rem;
-    background-position: 0 5rem;
+    background-position: 50px -10px;
     background-color: #fff;
-    border-bottom-left-radius: 5rem;
-  }
-
-  .section-cta {
-    background-position: 25.6rem 5rem;
+    border-bottom-left-radius: 50px;
   }
 
   .heading-primary {
-    width: 38rem;
-    font-size: 4.8rem;
-    line-height: 6.2rem;
-    padding-right: 2.2rem;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    text-align: left;
+    margin-bottom: 12px;
+    padding-left: 160px;
+  }
+
+  .hero-discription {
+    font-size: 40px;
+    line-height: 44px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 160px;
   }
 
   .desk-img-box {
     display: block;
-    width: 100%;
+    width: 50%;
   }
 
   .section-image-container {
     display: none;
   }
 
-  .div {
-    width: 100%;
-    padding: 1.6rem;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 1.6rem;
-  }
-
   .work-container {
     height: auto;
     width: 100%;
-    padding: 1.6rem;
+    padding: 16px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 1.6rem;
+    border-radius: 16px;
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 2rem;
     margin-bottom: 8.8rem;
     align-items: center;
   }
@@ -275,30 +165,90 @@
   }
 
   .about-section {
-    margin-right: 2.4rem;
+    margin-right: 24px;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 12px;
     background-color: #fff;
-    border-top-right-radius: 5rem;
+    border-top-right-radius: 50px;
+  }
+
+  .abt-text-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 24px;
+  }
+
+  .langs-box {
+    width: 60%;
   }
 
   .about-langs-container {
-    width: 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .abtself-discription {
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .cta {
-    border-top-left-radius: 5rem;
-    border-top-right-radius: 5rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
   }
 
   .cta-description {
-    font-size: 2.6rem;
-    line-height: 2.8rem;
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .icon-nav-list,
+  .connect-link {
+    margin-left: 160px;
+  }
+
+  .abt-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .get-resume {
+    width: 140px;
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 926px) {
+  .heading-primary {
+    padding-top: 200px;
+    padding-left: 200px;
+  }
+
+  .hero-discription {
+    padding-left: 200px;
+  }
+
+  .icon-nav-list,
+  .connect-link {
+    margin-left: 200px;
+  }
+
+  .icon-nav-list {
+    padding-bottom: 400px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .hero-discription {
+    padding-right: 450px;
   }
 }
