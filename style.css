@@ -42,6 +42,16 @@ li {
   border-radius: 8px;
   transition: all 0.3s;
 }
+.btn:hover {
+  background-color: #B0B8FF;
+  color: #fff;
+  transition: all 0.3s;
+}
+.btn:focus {
+  background-color: #4D5ACC;
+  color: #fff;
+  transition: all 0.3ms;
+}
 
 /* ******************** */
 
