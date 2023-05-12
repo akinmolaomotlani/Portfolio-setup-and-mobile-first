@@ -508,7 +508,13 @@ li {
 }
 
 .form-btn:hover {
-  background-color: #c4d3fb;
+  background-color: #a0a9ff;
   color: #fff;
   transition: all 0.3s;
+}
+
+.form-btn:focus {
+  background-color: #4d5acc;
+  color: #fff;
+  transition: all 0.3ms;
 }
