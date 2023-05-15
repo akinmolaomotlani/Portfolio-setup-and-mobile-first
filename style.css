@@ -43,6 +43,18 @@ li {
   transition: all 0.3s;
 }
 
+.btn:hover {
+  background-color: #b0b8ff;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn:focus {
+  background-color: #4d5acc;
+  color: #fff;
+  transition: all 0.3ms;
+}
+
 /* ******************** */
 
 /*     HEADER   */
@@ -191,6 +203,14 @@ li {
   grid-template-rows: 1fr;
   gap: 12px;
   margin-bottom: 88px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.work-container:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .img-section {
@@ -278,7 +298,7 @@ li {
 
 /* ******************** */
 
-/*      SECTION  WORK    */
+/*      SECTION  ABOUT   */
 
 /* ********************* */
 
@@ -508,7 +528,13 @@ li {
 }
 
 .form-btn:hover {
-  background-color: #c4d3fb;
+  background-color: #a0a9ff;
   color: #fff;
   transition: all 0.3s;
+}
+
+.form-btn:focus {
+  background-color: #4d5acc;
+  color: #fff;
+  transition: all 0.3ms;
 }
