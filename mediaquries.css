@@ -117,7 +117,7 @@
   }
 
   .hero-discription {
-    line-height: 44px;
+    line-height: 24px;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
@@ -237,5 +237,9 @@
 @media (min-width: 1300px) {
   .hero-discription {
     padding-right: 450px;
+  }
+
+  .cta-description {
+    max-width: 600px;
   }
 }
