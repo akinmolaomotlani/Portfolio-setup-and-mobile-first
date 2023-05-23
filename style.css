@@ -192,6 +192,7 @@ a {
   align-items: center;
   gap: 12px;
   margin-bottom: 10px;
+  padding-left: 200px;
 }
 
 .hero-discription {
@@ -216,10 +217,6 @@ a {
   font-size: 16px;
   font-family: "poppins", sans-serif;
   margin-bottom: 5px;
-  padding-left: 200px;
-}
-
-.icon-nav-list {
   padding-left: 200px;
 }
 
