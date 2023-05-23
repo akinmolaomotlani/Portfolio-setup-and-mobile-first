@@ -23,7 +23,7 @@
 
   .icon-nav-list,
   .connect-link {
-    margin-left: 110px;
+    padding-left: 110px;
   }
 
   .mobile-img-box {
@@ -67,7 +67,8 @@
 
   .icon-nav-list,
   .connect-link {
-    margin-left: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
   }
 
   .icon-nav-list {
@@ -134,7 +135,7 @@
 
   .icon-nav-list,
   .connect-link {
-    margin-left: 10px;
+    padding-left: 0;
   }
 
   .cta-description {

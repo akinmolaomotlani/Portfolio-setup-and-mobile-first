@@ -192,14 +192,7 @@ a {
   color: #172b4d;
   margin-bottom: 20px;
   padding-top: 300px;
-}
-
-.icon-nav-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 10px;
+  padding-left: 200px;
 }
 
 .hero-discription {
@@ -224,6 +217,16 @@ a {
   font-size: 16px;
   font-family: "poppins", sans-serif;
   margin-bottom: 5px;
+  padding-left: 200px;
+}
+
+.icon-nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding-left: 200px;
 }
 
 .icon-link,
@@ -231,6 +234,7 @@ a {
   font-size: 32px;
   color: #555;
   margin-bottom: 40px;
+  padding-left: 200px;
 }
 
 /* ******************** */
