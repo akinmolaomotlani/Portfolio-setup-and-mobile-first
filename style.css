@@ -99,8 +99,6 @@ a {
 }
 
 .header-section {
-  padding-left: 24px;
-  padding-right: 24px;
   padding-top: 24px;
   background-color: #fff;
 }
@@ -111,6 +109,8 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 141px;
+  padding-right: 142px;
 }
 
 .img-logo {
@@ -192,7 +192,6 @@ a {
   color: #172b4d;
   margin-bottom: 20px;
   padding-top: 300px;
-  padding-left: 200px;
 }
 
 .icon-nav-list {
@@ -201,7 +200,6 @@ a {
   align-items: center;
   gap: 12px;
   margin-bottom: 10px;
-  padding-left: 200px;
 }
 
 .hero-discription {
@@ -226,7 +224,6 @@ a {
   font-size: 16px;
   font-family: "poppins", sans-serif;
   margin-bottom: 5px;
-  padding-left: 200px;
 }
 
 .icon-link,
@@ -524,8 +521,8 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
-  padding-left: 260px;
-  padding-right: 260px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-bottom: 44px;
 }
 
