@@ -1,245 +1,147 @@
-@media (min-width: 375px) {
-  .heading-primary {
-    font-size: 40px;
-    line-height: 52px;
-    padding-top: 100px;
-  }
-
+@media (max-width: 1400px) {
   .hero {
-    background-position: 25px 50px;
-  }
-
-  .cta-description {
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    padding-left: 24px;
-    padding-right: 0;
-  }
-
-  .hero-discription {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .img-section {
-    width: 100%;
-  }
-}
-
-@media (min-width: 536px) {
-  .section-hero {
-    background-position: 60px 50px;
+    max-width: 1400px;
+    padding: 30px;
   }
 
   .heading-primary {
-    padding-top: 150px;
-    font-size: 40px;
-    line-height: 52px;
-  }
-
-  .abtself-discription,
-  .hero-discription {
-    font-size: 16px;
-    line-height: 24px;
-  }
-}
-
-@media (min-width: 767px) {
-  .section-desktop-header {
-    padding: 24px;
+    padding-top: 100px;
+    font-size: 54px;
+    padding-left: 110px;
   }
 
   .header {
-    display: none;
-  }
-
-  .desk-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .desktop-header-text {
-    display: block;
-  }
-
-  .main-desk-list {
-    width: 220px;
-    margin-right: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .link {
-    text-decoration: none;
-    width: 62px;
-    height: 20px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #344563;
-  }
-
-  .header-section {
-    background-color: #fff;
-  }
-
-  .section-hero {
-    background-color: #efefef;
-  }
-
-  .hero {
-    padding-bottom: 20px;
-    background-image: url(img/Header\ bg.svg);
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50px -10px;
-    background-color: #fff;
-    border-bottom-left-radius: 50px;
-  }
-
-  .heading-primary {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.37px;
-    text-align: left;
-    margin-bottom: 12px;
-    padding-left: 160px;
+    padding-left: 141px;
+    padding-right: 142px;
   }
 
   .hero-discription {
-    line-height: 24px;
     font-size: 18px;
-    font-weight: 400;
-    text-align: left;
-    padding-left: 160px;
-  }
-
-  .desk-img-box {
-    display: block;
-    width: 50%;
-  }
-
-  .section-image-container {
-    display: none;
-  }
-
-  .work-container {
-    height: auto;
-    width: 100%;
-    padding: 16px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    margin-bottom: 8.8rem;
-    align-items: center;
-  }
-
-  .desk-img {
-    width: 90%;
-  }
-
-  .about-section {
-    margin-right: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    background-color: #fff;
-    border-top-right-radius: 50px;
-  }
-
-  .abt-text-container {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-left: 24px;
-  }
-
-  .langs-box {
-    width: 60%;
-  }
-
-  .about-langs-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .abtself-discription {
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .cta {
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-  }
-
-  .cta-description {
-    font-size: 26px;
-    line-height: 28px;
+    padding-left: 110px;
+    padding-right: 50px;
   }
 
   .icon-nav-list,
   .connect-link {
-    margin-left: 160px;
+    margin-left: 110px;
   }
 
-  .abt-logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-
-  .get-resume {
-    width: 140px;
-    padding: 6px 10px;
-    font-size: 16px;
+  .mobile-img-box {
+    display: none;
   }
 }
 
-@media (min-width: 926px) {
+@media (max-width: 768px) {
+  .header {
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .img-box {
+    display: none;
+  }
+
+  .mobile-img {
+    width: 100%;
+  }
+
+  .mobile-img-box {
+    display: block;
+  }
+
   .heading-primary {
-    padding-top: 200px;
-    padding-left: 200px;
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 44px;
   }
 
   .hero-discription {
-    padding-left: 200px;
+    padding-right: 0;
+    padding-left: 20px;
+    font-size: 16px;
   }
 
   .icon-nav-list,
   .connect-link {
-    margin-left: 200px;
+    margin-left: 20px;
   }
 
   .icon-nav-list {
-    padding-bottom: 400px;
+    padding-bottom: 50px;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1ms ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 48px;
   }
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 544px) {
+  .heading-primary {
+    padding-top: 100px;
+    padding-left: 10px;
+    font-size: 30px;
+  }
+
   .hero-discription {
-    padding-right: 450px;
+    padding-right: 0;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .icon-nav-list,
+  .connect-link {
+    margin-left: 10px;
   }
 
   .cta-description {
-    max-width: 600px;
+    padding: 34px;
   }
 }

@@ -39,6 +39,7 @@
 1. HTML
 2. CSS
 3. LINTERS
+4. Javascript
 
 <details>
   <summary>Client</summary>
@@ -55,9 +56,11 @@
 Added html.index file
 added style.css
 added linters.yml
+added script.js file
 
 - **[html.index]**
 - **[style.css]**
+- **[script.js]**
 - **[linters.yml]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,7 +156,7 @@ If you like this project, please give me a star
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Microverse for the opportunity and my code partner, Jalloh
+I would like to thank Microverse for the opportunity and my code partner, alnold
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
