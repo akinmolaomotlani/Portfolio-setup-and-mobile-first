@@ -95,8 +95,18 @@ a {
 
 /* ********************* */
 
+.desk-header {
+  display: none;
+}
+
+.header-section {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  background-color: #fff;
+}
+
 .header {
-  padding: 24px;
   background-color: #fff;
   display: flex;
   flex-direction: row;
