@@ -7,14 +7,15 @@
 html {
   overflow-x: hidden;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
-  background-color: #ededed;
   font-family: "poppins", sans-serif;
+  overflow-y: scroll;
 }
 
 li {
@@ -245,6 +246,7 @@ a {
 
 .work-section {
   padding: 24px;
+  background-color: #ededed;
 }
 
 .work-container {
