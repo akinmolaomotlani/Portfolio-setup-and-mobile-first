@@ -48,6 +48,7 @@ document.getElementById('modal').innerHTML = `
 </div>
 
   <p class="work-modal-description">
+  ${workSections}
   'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptate,  nam eum doloribus in quo repellat odio omnis officia, quos ea <br> ex!',
   'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptate,  nam eum doloribus in quo repellat odio omnis officia, quos ea <br> ex!',
   
@@ -63,13 +64,13 @@ const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn-close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn-open-modal');
 
-const openModal = function (e) {
+const openModal = (e) => {
   e.preventDefault();
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
 };
 
-const closeModal = function () {
+const closeModal = () => {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
 };
@@ -79,7 +80,7 @@ btnsOpenModal.forEach((btn) => btn.addEventListener('click', openModal));
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
-document.addEventListener('keydown', function (e) {
+document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
     closeModal();
   }
