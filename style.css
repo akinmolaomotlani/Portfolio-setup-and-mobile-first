@@ -270,6 +270,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .heading-secondary {
@@ -346,6 +347,10 @@ a {
 
 .mobile-img-box {
   display: none;
+}
+
+.mobile-img {
+  margin-bottom: 38px;
 }
 
 .btn-work {
@@ -598,4 +603,77 @@ a {
   background-color: #4d5acc;
   color: #fff;
   transition: all 0.3ms;
+}
+.modal {
+  margin-top: 10px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 300px;
+  background-color: #fff;
+  transition: 3ms all;
+  z-index: 1000;
+}
+
+.img-modal {
+  width: 70%;
+  height: auto;
+  margin-bottom: 10px;
+  z-index: 1001;
+}
+
+.btn-close-modal {
+  font-size: 32px;
+  padding: 4px 8px;
+  border: none;
+  border-color: #fff;
+  background-color: #fff;
+  justify-self: flex-end;
+  width: 60px;
+}
+
+.header-popup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.work-modal-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.btn-modal-live,
+.btn-modal-source {
+  padding: 6px 18px;
+  border: 0.5px solid #000;
+  margin-right: 20px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
 }
