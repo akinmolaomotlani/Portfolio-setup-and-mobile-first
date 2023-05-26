@@ -21,18 +21,14 @@ const workSections = {
 };
 document.getElementById('modal').innerHTML = `  
 <div class="header-popup">
-<h3 class="heading-secondary">Multi-PostStories</h3> 
+<h3 class="heading-secondary-modal">Multi-PostStories</h3> 
 <button class="btn-close-modal"> &times;</button>
 </div>
 
-<nav class="languages-apps-box">
-  <ul class="langs-app-list">
+<nav class="modal-languages-apps-box">
+  <ul class="modal-langs-app-list">
      <li class="work-section-list"><p class="apps">${workSections.langs[0]}</p></li>
-     </ul>
-     <ul class="langs-app-list">
       <li class="work-section-list"><p class="apps">${workSections.langs[1]}</p></li>
-      </ul>
-      <ul class="langs-app-list">
       <li class="work-section-list"><p class="apps">${workSections.langs[2]}</p></li>
   </ul>
 </nav>
@@ -43,19 +39,20 @@ document.getElementById('modal').innerHTML = `
  </div>
 
    <div class="mobile-img-box">
-    <img class="img-mobile" src="img/Snapshoot Portfolio.1.png" alt="">
+    <img class="modal-img-mobile" src="img/Snapshoot Portfolio.1.png" alt="">
   </div>
 </div>
 
 <div class="text-modal-div">
-<p class="work-description">
+<p class="modal-work-description">
  ${workSections.workDescription}
 </p>
-<p class="work-description">
+<p class="modal-work-description">
  ${workSections.workDescription}
 </p>
 
-<button class="btn-modal-source">Source</button>
+<button class="btn-modal-live">live</button>
+<button class="btn-modal-live">Source</button>
 </div>
 </div>
 
