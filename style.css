@@ -611,18 +611,18 @@ a {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 10%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
-  height: 300px;
+  width: 90%;
+  height: 90vh;
   background-color: #fff;
   transition: 3ms all;
   z-index: 1000;
 }
 
 .img-modal {
-  width: 70%;
+  width: 100%;
   height: auto;
   margin-bottom: 10px;
   z-index: 1001;
@@ -650,6 +650,17 @@ a {
   color: #fff;
 }
 
+.text-modal-div {
+  max-width: 550px;
+  padding: 24px;
+}
+
+.img-txt-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .btn-modal-live,
 .btn-modal-source {
   padding: 6px 18px;
@@ -659,7 +670,7 @@ a {
 
 #overlay {
   position: fixed;
-  opacity: 0;
+  opacity: 1;
   top: 0;
   left: 0;
   right: 0;
@@ -667,11 +678,6 @@ a {
   z-index: 100;
   background-color: rgba(0, 0, 0, 0.5);
   pointer-events: none;
-}
-
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
 }
 
 .hidden {
