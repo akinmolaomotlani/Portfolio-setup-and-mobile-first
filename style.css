@@ -16,6 +16,7 @@ body {
   overflow-x: hidden;
   font-family: 'poppins', sans-serif;
   overflow-y: scroll;
+  position: relative;
 }
 
 li {
@@ -244,6 +245,45 @@ a {
 /*      SECTION  WORK    */
 
 /* ********************* */
+
+.see-project-btn {
+  padding: 12px 32px;
+  background: #396df2;
+  color: white;
+  border: none;
+}
+
+.popup-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60rem;
+  background-color: #f3f3f3;
+  padding: 5rem 6rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+.btn-close {
+  padding: 4px;
+  border: none;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+}
 
 .work-section {
   background-color: #ededed;

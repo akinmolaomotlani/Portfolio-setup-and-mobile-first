@@ -58,164 +58,122 @@ const workSections = [
   },
 ];
 
-const portfolio = document.createElement('div');
-portfolio.className = 'work-container';
+const portiforlio = document.createElement('div');
 
 workSections.forEach((section) => {
-  const gridBox = document.createElement('div');
-  gridBox.className = 'grid-2-cols';
-  const containerImage = document.createElement('div');
-  containerImage.classList.add('containerImage', section.className);
-
-  const image = document.createElement('img');
-  image.className = 'image-section';
-  image.src = section.Image;
-  containerImage.appendChild(image);
-
   const textSection = document.createElement('div');
-  textSection.className = 'text-section';
+  const headingSecondary = document.createElement('h3');
+  headingSecondary.className = 'heading-secondary';
+  headingSecondary.textContent = section.headingSecondary;
+  textSection.appendChild(headingSecondary);
 
-  const pryHeading = document.createElement('h3');
-  pryHeading.innerHTML = section.headingSecondary;
-  pryHeading.className = 'heading-secondary';
+  // subheading box
 
-  const textContainer = document.createElement('div');
-  textContainer.className = 'text-container-work';
+  const subHeading = document.createElement('h5');
+  subHeading.className = 'subheading';
+  subHeading.textContent = section.subheading;
 
-  const subheading = document.createElement('p');
-  subheading.innerHTML = section.subheading;
-  subheading.className = 'subheading';
-
-  const dot = document.createElement('span');
-  dot.innerHTML = section.dot;
-  dot.className = 'dot';
-
-  const developer = document.createElement('span');
-  developer.innerHTML = section.develper;
+  const developer = document.createElement('p');
+  developer.textContent = section.developer;
   developer.className = 'developer';
 
-  const year = document.createElement('span');
-  year.innerHTML = section.year;
+  const dot = document.createElement('div');
+  dot.textContent = '.';
+  dot.className = 'dot';
+
+  const year = document.createElement('p');
+  year.textContent = section.year;
   year.className = 'year';
 
+  const subTextSection = document.createElement('div');
+  subTextSection.className = 'sub-text-section';
+  subTextSection.appendChild(subHeading);
+  subTextSection.appendChild(dot);
+  subTextSection.appendChild(developer);
+  subTextSection.appendChild(year);
+  textSection.appendChild(subTextSection);
+
+  // work description
   const workDescription = document.createElement('p');
-  workDescription.innerHTML = section.workDescription;
+  workDescription.textContent = section.workDescription;
   workDescription.className = 'work-description';
-
-  const ul = document.createElement('ul');
-  ul.className = 'langs-app-list';
-
-  const li = document.createElement('li');
-  li.className = 'work-section-list';
-
-  const apps = document.createElement('p');
-  apps.innerHTML = section.langs;
-  apps.className = 'apps';
-
-  const submitBtn = document.createElement('button');
-  submitBtn.className = 'btn-work';
-  submitBtn.innerHTML = section.button;
-
-  textSection.appendChild(pryHeading);
-  textSection.appendChild(textContainer);
-  textContainer.appendChild(subheading);
-  textContainer.appendChild(dot);
-  textContainer.appendChild(developer);
-  textContainer.appendChild(year);
   textSection.appendChild(workDescription);
-  textSection.appendChild(ul);
-  ul.appendChild(li);
-  li.appendChild(apps);
-  textSection.appendChild(submitBtn);
 
-  portfolio.appendChild(gridBox);
-  gridBox.appendChild(containerImage);
-  gridBox.appendChild(textSection);
-});
+  // languages
 
-const targetElement = document.querySelector('#worksection');
-targetElement.appendChild(portfolio);
+  const lang1 = document.createElement('p');
+  lang1.textContent = section.langs[0];
 
-const modal = document.querySelector('.modal');
-const overlay = document.querySelector('.overlay');
-const btnCloseModal = document.querySelector('.btn-close-modal');
-const btnsOpenModal = document.querySelectorAll('.btn-work');
+  const lang2 = document.createElement('p');
+  lang2.textContent = section.langs[1];
 
-const popupModal = [
-  {
-    headingSecondary: 'Tonic',
-    subheading: 'CANOPY',
-    develper: 'Back End Dev',
-    dot: ' ',
-    year: 2015,
-    workDescription:
-      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste ipsam facere, eos cum eum sint at accusamus quisquam quod asperiores assumenda dolorem officiis voluptatibus doloribus excepturi, consequuntur consectetur voluptas similique.',
-    langs: ['HTML', 'CSS', 'JAVASCRIPT', 'RUBBY'],
-    live: '# ',
-    source: '#',
-    Image: 'img/tonic1.svg',
-    button: 'X',
-  },
-];
+  const lang3 = document.createElement('p');
+  lang3.textContent = section.langs[2];
 
-const modalContainer = document.createElement('div');
-modalContainer.className = 'modal';
+  const lang4 = document.createElement('p');
+  lang4.textContent = section.langs[3];
 
-popupModal.forEach((popup) => {
-  const popupheader = document.createElement('h3');
-  popupheader.classList = 'heading-secondary';
-  popupheader.innerHTML = popup.headingSecondary;
+  const languagesBox = document.createElement('div');
+  languagesBox.className = 'languages-box';
 
-  const textContainer = document.createElement('div');
-  textContainer.className = 'text-container-work';
+  languagesBox.appendChild(lang1);
+  languagesBox.appendChild(lang2);
+  languagesBox.appendChild(lang3);
+  languagesBox.appendChild(lang4);
+  textSection.appendChild(languagesBox);
 
-  const subheading = document.createElement('p');
-  subheading.innerHTML = popup.subheading;
-  subheading.className = 'subheading';
+  // button
 
-  const dot = document.createElement('span');
-  dot.innerHTML = popup.dot;
-  dot.className = 'dot';
+  const button = document.createElement('button');
+  button.className = 'see-project-btn';
+  button.textContent = section.button;
+  textSection.appendChild(button);
 
-  const developer = document.createElement('span');
-  developer.innerHTML = popup.develper;
-  developer.className = 'developer';
-
-  const year = document.createElement('span');
-  year.innerHTML = popup.year;
-  year.className = 'year';
-
-  const workDescription = document.createElement('p');
-  workDescription.innerHTML = popup.workDescription;
-  workDescription.className = 'work-description';
-
-  const containerImage = document.createElement('div');
-  containerImage.classList.add('containerImage', section.className);
-
+  // image container
   const image = document.createElement('img');
-  image.className = 'image-section';
   image.src = section.Image;
-  containerImage.appendChild(image);
+  image.className = 'work-img';
+
+  const imageContainer = document.createElement('div');
+  imageContainer.className = 'image-container';
+  imageContainer.appendChild(image);
+
+  let gridBox = document.createElement('div');
+  gridBox.className = 'grid-2-cols';
+  gridBox.appendChild(imageContainer);
+  gridBox.appendChild(textSection);
+  portiforlio.appendChild(gridBox);
 });
 
-const openModal = (e) => {
-  e.preventDefault();
-  modal.classList.remove('hidden');
-  overlay.classList.remove('hidden');
-};
+const workSection = document.getElementById('worksection');
+workSection.appendChild(portiforlio);
 
-const closeModal = () => {
-  modal.classList.add('hidden');
-  overlay.classList.add('hidden');
-};
+const popUp = document.createElement('div');
+popUp.className = 'popup-page';
 
-btnsOpenModal.forEach((btn) => btn.addEventListener('click', openModal));
+let paragraph = document.createElement('p');
+paragraph.textContent =
+  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae consequatur itaque nobis quae minus quidem praesentium pariatur tenetur excepturi sint perspiciatis voluptatibus quibusdam unde consectetur, quia dignissimos delectus cum?';
+paragraph.className = 'paragraph';
+popUp.appendChild(paragraph);
+workSection.appendChild(popUp);
 
-btnCloseModal.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
+let closeButton = document.createElement('button');
+closeButton.className = 'btn-close';
+closeButton.textContent = 'X';
+popUp.appendChild(closeButton);
 
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-    closeModal();
-  }
-});
+let btnOpen = document.querySelectorAll('.see-project-btn');
+let closeBtn = document.querySelector('.btn-close');
+let popUpPage = document.querySelector('.popup-page');
+
+workSection.addEventListener('click', openWindow);
+function openWindow() {
+  popUpPage.classList.add('show');
+}
+
+closeBtn.addEventListener('click', closeModal);
+
+function closeModal() {
+  popUpPage.classList.remove('show');
+}
